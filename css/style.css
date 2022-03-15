@@ -12,7 +12,8 @@ body {
 
 header {
     background-color: #ffffff;
-    padding: 10px;
+    padding: 10px 15px;
+    margin-bottom: 40px;
 }
 
 #img-logo {
@@ -24,3 +25,35 @@ header h1 {
     display: inline-block;
 }
 
+.contenitore {
+    background-color: #ffffff;
+    width: 800px;
+    margin: 5px auto;
+    padding: 25px 50px;
+}
+
+#cont-butt {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.button {
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.butt-blue {
+    color: #ffffff;
+    text-align: center;
+    background-color: #47adf1;
+    border: 1px solid #47adf1;
+}
+
+.butt-white {
+    border: 1px solid #c5cbd0;
+    color: #c6ccd1;
+}
+
+/* #cont-tasks {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+} */
