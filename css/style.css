@@ -28,8 +28,8 @@ header h1 {
 .contenitore {
     background-color: #ffffff;
     width: 800px;
-    margin: 5px auto;
-    padding: 25px 50px;
+    margin: 3px auto;
+    padding: 15px 50px;
 }
 
 #cont-butt {
@@ -54,13 +54,21 @@ header h1 {
 }
 
 #cont-tasks {
+    padding-top: 40px;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
 }
 
+.single-tasks {
+    margin: 10px 0px 20px 0px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
 h2 {
     color: #444851;
-    margin-bottom: 10px;
 }
 
 .circle {
@@ -71,18 +79,39 @@ h2 {
     height: 17px;
     line-height: 17px;
     font-size: small;
-    padding-left: 2px;
 }
 
 .circle-green {
     color: #97d8ca;
     border-color: #97d8ca;
+    padding-left: 2px;
+}
+
+.circle-red {
+    color: #eb5851;
+    border-color: #eb5851;
+    padding: 0 3px;
 }
 
 .label {
     padding: 5px;
-    background-color: #45abea;
     color: #eff9fd;
     border-radius: 10px;
     font-size: 12px;
+}
+
+.label-editorial {
+    background-color: #45abea;
+}
+
+.label-goals {
+    background-color: #9c72e4;
+}
+
+.label-recruiting {
+    background-color: #64c0a9;
+}
+
+.label-mobile {
+    background-color: #f29e33;
 }
