@@ -1,4 +1,4 @@
-/* * {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -6,5 +6,21 @@
 }
 
 body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f6f8f9;
+}
 
-} */
+header {
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+#img-logo {
+    vertical-align: middle;
+}
+
+header h1 {
+    vertical-align: middle;
+    display: inline-block;
+}
+
